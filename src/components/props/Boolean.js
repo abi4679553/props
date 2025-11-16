@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Boolean = ({Boolean}) => {
+const Boolean = ({islogged}) => {
   return (
     <div>
-        <p>Boolean:{Boolean}</p>
+        <p> islogged :{islogged ? "Yes" : "No"}</p>
     </div>
   )
 }

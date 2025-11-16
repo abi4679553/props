@@ -1,6 +1,7 @@
 import React from 'react'
 
-const About = (props) => {
+const Array = (props) => {
+  const Array = ["Abi", "Kumar", "Sara"];
   return (
     <div>
         <p>name :{props.name}</p>
@@ -8,4 +9,4 @@ const About = (props) => {
   )
 }
 
-export default About
+export default Array
