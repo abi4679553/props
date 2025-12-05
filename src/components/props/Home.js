@@ -3,6 +3,8 @@ import Array from "./Array"
 import Boolean from './Boolean'
 import Number from './Number'
 import String from './String'
+import Object from './Object'
+import Function from './Function'
 import Arrayofobject from './Arrayofobject'
 
 
@@ -23,9 +25,16 @@ const Home = () => {
 
       ]} />
 
+      <Object employee={
+        { empname: "abcd", id: "101" }} />
 
-
-
+      Function students {
+        alert("Hello from Parent Function!")
+      };
+        
+      
+      
+        
 
     </div>
   )
