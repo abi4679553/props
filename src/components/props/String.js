@@ -2,7 +2,7 @@ import React from 'react'
 
 const String = ({name}) => {
   return (
-    <div className=''>
+    <div>
         <p> name :{name}</p>
 
     </div>

@@ -1,10 +1,11 @@
-import React from 'react'
+
 
 const Array = (props) => {
-  const Array = ["Abi", "Kumar", "Sara"];
+  
   return (
     <div>
-        <p>name :{props.name}</p>
+        <p>name :{props.name[0]}</p>
+        <p>name:{props.name[2]}</p>
     </div>
   )
 }

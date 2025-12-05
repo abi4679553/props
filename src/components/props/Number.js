@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Number = ({age}) => {
+const Number = (props) => {
   return (
-    <div className='bg-red-500 w-fit text-white p-2'>
-        <p>age :{age}</p>
+    <div className='bg-pink-600 text-white w-fit'>
+        { <p >age :{props.age}</p> } 
+        
     </div>
   )
 }
