@@ -3,19 +3,29 @@ import Array from "./Array"
 import Boolean from './Boolean'
 import Number from './Number'
 import String from './String'
+import Arrayofobject from './Arrayofobject'
 
 
 
 const Home = () => {
   return (
     <div>
-      
-    <String name={"abi"} />
-    <Number age={'26'} />
-    <Boolean islogged={false} />
-    <Array name={["abi","sara","dcm"]}/>
-      
-       
+
+      <String name={"abi"} />
+      <Number age={'26'} />
+      <Boolean islogged={false} />
+      <Array name={["abi", "sara", "dcm"]} />
+
+      <Arrayofobject user={[
+        { user1: "Acc", age: 21 },
+        { user2: "Sara", age: 20 },
+        { user3: "Dcm", age: 22 }
+
+      ]} />
+
+
+
+
 
     </div>
   )
