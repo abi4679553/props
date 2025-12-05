@@ -6,6 +6,7 @@ import String from './String'
 import Object from './Object'
 import Function from './Function'
 import Arrayofobject from './Arrayofobject'
+import Component from './Component'
 
 
 
@@ -31,10 +32,12 @@ const Home = () => {
       Function students {
         alert("Hello from Parent Function!")
       };
-        
-      
-      
-        
+
+      <h1>This is inside child component</h1>
+
+
+
+
 
     </div>
   )
