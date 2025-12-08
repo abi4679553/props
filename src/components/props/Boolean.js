@@ -2,7 +2,7 @@ import React from 'react'
 
 const Boolean = ({islogged}) => {
   return (
-    <div>
+    <div className='text-xl'>
         <p> islogged :{islogged ? "Yes" : "No"}</p>
     </div>
   )
