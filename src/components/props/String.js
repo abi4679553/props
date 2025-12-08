@@ -2,7 +2,7 @@ import React from 'react'
 
 const String = ({name}) => {
   return (
-    <div>
+    <div className='bg-green-500  w-fit p-1'>
         <p> name :{name}</p>
 
     </div>
