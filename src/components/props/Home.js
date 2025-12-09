@@ -12,7 +12,8 @@ import Component from './Component'
 
 const Home = () => {
   return (
-    <div className=' gap-10  p-4 text-xl'>
+    <div className=' gap-20  p-4 text-xl '>
+      <p className=' gap-20 bg-pink-600  w-fit gapa-10 m-5 text-white  p-2'> props</p>
 
       <String name={"abi"} />
       <Number age={'26'} />
