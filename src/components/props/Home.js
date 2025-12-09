@@ -12,7 +12,7 @@ import Component from './Component'
 
 const Home = () => {
   return (
-    <div>
+    <div className=' gap-10  p-4 text-xl'>
 
       <String name={"abi"} />
       <Number age={'26'} />
