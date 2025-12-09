@@ -2,7 +2,7 @@ import React from 'react'
 
 const Object = (props) => {
     return (
-        <div className=' bg-red-500 w-fit text-white'>
+        <div className='text-xl'>
         {<p>employee: {props.employee.empname}</p>}
         </div>
     )
